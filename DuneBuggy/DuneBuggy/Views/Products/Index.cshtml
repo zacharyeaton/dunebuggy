@@ -1,0 +1,56 @@
+﻿@model List<DuneBuggy.Businesslayer.Models.Product>
+
+@{
+    ViewBag.Title = "Our Products";
+}
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>
+    <div class="row">
+        <div class="column-1">
+            @if (Request.IsAuthenticated)
+            {
+                @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+            }
+        </div>       
+    </div>
+
+</p>
+<div class="product-list">
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="column-3">
+                <div class="row">
+                    <div class="column-1">
+                        <img src="@item.product_image" alt="@item.product_name" />
+                    </div>
+                    <div class="column-2">
+                        <div class="card">
+                            <h2>
+                                @Html.ActionLink(item.product_name, "Detail", new { id = item.product_id })                                
+                            </h2>
+                            <p>
+                                <strong>£@item.product_cost</strong>
+                                <br />
+                                @item.product_description
+                                <br />
+                                @if (Request.IsAuthenticated)
+                                {
+                                    @Html.ActionLink("Edit Product", "Edit", new { id = item.product_id })
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div >
+    }
+</div>
+
+
+
+
+

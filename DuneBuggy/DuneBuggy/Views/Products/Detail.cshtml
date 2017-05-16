@@ -1,0 +1,29 @@
+﻿@model DuneBuggy.Businesslayer.Models.Product
+
+@{
+    ViewBag.Title = "Product";
+}
+<div class="row navigation-buffer">
+    <h2>@Model.product_name</h2>
+    <div>
+        @if (Request.IsAuthenticated)
+        {
+            @Html.ActionLink("Edit Product", "Edit", new { id = Model.product_id })
+        }
+    </div>
+    
+    <div class="column-2">
+        <img class="image-responsive" src="@Model.product_image" alt="Product Image" />
+    </div>
+    <div class="column-1">      
+        <strong>£@Html.DisplayFor(Model => Model.product_cost)</strong>
+        </br>
+        @Html.DisplayFor(Model => Model.product_description)     
+        
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+   

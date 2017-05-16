@@ -1,0 +1,4 @@
+C:\Projects\mvcapp\DoomBuggy\DoomBuggy.Businesslayer\bin\Debug\DoomBuggy.Businesslayer.dll
+C:\Projects\mvcapp\DoomBuggy\DoomBuggy.Businesslayer\bin\Debug\DoomBuggy.Businesslayer.pdb
+C:\Projects\mvcapp\DoomBuggy\DoomBuggy.Businesslayer\obj\Debug\DoomBuggy.Businesslayer.dll
+C:\Projects\mvcapp\DoomBuggy\DoomBuggy.Businesslayer\obj\Debug\DoomBuggy.Businesslayer.pdb

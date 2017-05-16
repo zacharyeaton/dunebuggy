@@ -1,0 +1,57 @@
+﻿@model DuneBuggy.Businesslayer.Models.Product
+@{
+    ViewBag.Title = "Create";
+}
+<h2>Create</h2>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="row">
+        <h4>Product</h4>
+        <hr />
+        @Html.ValidationSummary(true, "")
+
+        <div>
+            @Html.LabelFor(model => model.product_name, htmlAttributes: new { @class = "column-2" })
+            <div class="column-2">
+                @Html.EditorFor(model => model.product_name, new { @class = "column-2" })
+                @Html.ValidationMessageFor(model => model.product_name, "")
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.product_description, htmlAttributes: new { @class = "column-2" })
+            <div class="column-2">
+                @Html.TextAreaFor(model => model.product_description, htmlAttributes: new { @class = "column-2" })
+                @Html.ValidationMessageFor(model => model.product_description, "")
+            </div>
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.product_cost, htmlAttributes: new { @class = "column-2" })
+            <div class="column-2">
+                @Html.EditorFor(model => model.product_cost, new { @class = "column-2" })
+                @Html.ValidationMessageFor(model => model.product_cost, "")
+            </div>
+        </div>
+        <div>
+            @Html.LabelFor(model => model.product_image)
+            <div class="column-2">
+                <input type="file" name="file" />
+            </div>
+        </div>
+        <div>
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

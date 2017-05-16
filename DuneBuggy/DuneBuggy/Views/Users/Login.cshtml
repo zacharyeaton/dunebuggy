@@ -1,0 +1,29 @@
+﻿@model DuneBuggy.Businesslayer.Models.User
+@{
+    ViewBag.Title = "Login";
+}
+@using (Html.BeginForm(null, null, FormMethod.Post))
+{
+
+    @Html.ValidationSummary(true, "")
+    <div class="row navigation-buffer">
+        @Html.ValidationMessage("LoginError")
+        <h2>Login</h2>
+        <div class="editor-label">
+            @Html.LabelFor(Model => Model.Username)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(Model => Model.Username)
+            @Html.ValidationMessageFor(Model => Model.Username)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(Model => Model.Password)
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(Model => Model.Password)
+            @Html.ValidationMessageFor(Model => Model.Password)
+        </div>
+        <input type="submit" value="Log In" />
+
+    </div>
+}

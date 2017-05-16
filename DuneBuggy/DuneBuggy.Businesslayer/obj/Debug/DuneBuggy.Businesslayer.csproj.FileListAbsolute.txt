@@ -1,0 +1,9 @@
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\bin\Debug\DuneBuggy.Businesslayer.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\bin\Debug\DuneBuggy.Businesslayer.pdb
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\bin\Debug\Microsoft.Owin.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\bin\Debug\Microsoft.Owin.Security.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\obj\Debug\DuneBuggy.Businesslayer.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\obj\Debug\DuneBuggy.Businesslayer.pdb
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Businesslayer\obj\Debug\DuneBuggy.Businesslayer.csprojResolveAssemblyReference.cache

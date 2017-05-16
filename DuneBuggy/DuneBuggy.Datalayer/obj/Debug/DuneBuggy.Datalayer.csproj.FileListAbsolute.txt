@@ -1,0 +1,12 @@
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\DuneBuggy.Datalayer.dll.config
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\DuneBuggy.Datalayer.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\DuneBuggy.Datalayer.pdb
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\DuneBuggy.Businesslayer.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\EntityFramework.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\DuneBuggy.Businesslayer.pdb
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\EntityFramework.xml
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\obj\Debug\DuneBuggy.Datalayer.csprojResolveAssemblyReference.cache
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\obj\Debug\DuneBuggy.Datalayer.dll
+C:\Projects\mvcapp\DuneBuggy\DuneBuggy.Datalayer\obj\Debug\DuneBuggy.Datalayer.pdb
